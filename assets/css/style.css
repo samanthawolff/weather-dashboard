@@ -1,4 +1,7 @@
-
+header {
+    background: #64a4ed;
+    border-bottom: 3px solid #3d7abf;
+}
 .future-weather {
     background: skyblue;
     padding: 5px 50px 0px 5px;
@@ -11,7 +14,22 @@
 }
 
 .search-area {
-    border-bottom: 3px solid grey;
+    border: 3px solid grey;
+    padding-top: 5px;
 }
+
+.current-forecast {
+    border: 3px solid grey;
+    padding: 5px 5px 5px 5px;
+}
+
+.day-forecast {
+    border: 3px solid grey;
+}
+
+.future-weather {
+   
+}
+
 
     
