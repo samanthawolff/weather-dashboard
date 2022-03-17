@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -19,10 +19,14 @@
 
         <!-- Search For a City Section -->
 
-        <section class="search-city d-flex justify-content-between">
+       <!---- <section class="search-city d-flex justify-content-between"> -->
 
-        <section class="row ml-3">
-            <div class="col-3 mw-100">
+        <section class="container-fluid">
+            <div class="row">
+
+
+       <section class="ml-3 search-area col-3">
+            <div class="mw-100">
             <h2 class="d-flex justify-content-center mw-100">Search For a City:</h2>
             <form class="">
                 <input
@@ -32,29 +36,36 @@
                 placeholder="San Antonio"
                 />
             </form>
-            <button type="submit" class="btn btn-info mt-3">Search</button>
+            <button type="submit" class="btn btn-info mt-3 mb-3 mw-100">Search</button>
             <div class="search-history">
+                <ul class="list-group"></ul>
+            </div>
+        </section>
 
-            </div>
-            </div>
+        <section class="search-history">
+            <ul class="list-group"></ul>
         </section>
 
         <!-- Today's Date and Weather Forecast -->
-        <section class="current-info border border-info col-9 mr-5 mw-100 d-flex">
+        <section class="col-8">
+            <div>
             <h2 class="mw-100">Placeholder city and date</h2>
+            <div>
             <p>Temp: </p>
+            </div>
             <p>Wind: </p>
             <P>Humidity: </P>
             <p>UV Index: </p>
-        </section>
+            </div>
+        
 
-        </section>
+          <!-- </section> -->
 
-        <!-- 5-Day Forecast Section-->
-        <section class="5forecast mt-4">
+          <!-- 5-Day Forecast Section-->
+        
+            <div>
             <h3 class="d-flex justify-content-center">5-Day Forecast:</h3>
 
-            <div class="row col col-12 d-flex justify-content-end">
 
             <div class="future-weather mr-5" id="day-1">
                 <h4>3/15/22</h4>
@@ -95,6 +106,9 @@
 
         </section>
 
+        </div>
+        </section>
+
     </main>
 
 
@@ -104,3 +118,4 @@
   </body>
 
 </html>
+

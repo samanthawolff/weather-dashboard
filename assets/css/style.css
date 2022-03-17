@@ -1,3 +1,4 @@
+
 .future-weather {
     background: skyblue;
     padding: 5px 50px 0px 5px;
@@ -7,6 +8,10 @@
 
 .search-city h2 {
     font-size: 30px;
+}
+
+.search-area {
+    border-bottom: 3px solid grey;
 }
 
     
