@@ -25,7 +25,7 @@
             <div class="row">
 
 
-       <section class="ml-3 search-area col-3">
+       <section class="ml-3 search-area col-3 d-flex justify-content-center">
             <div class="mw-100">
             <h2 class="d-flex justify-content-center mw">Search For a City:</h2>
             <form class="ml-2 mw-100">
@@ -36,7 +36,7 @@
                 placeholder="San Antonio"
                 />
             </form>
-            <button type="submit" class="btn btn-info mt-3 mb-3 ml-2">Search</button>
+            <button type="submit" id="searchBtn" class="btn btn-info mt-3 mb-3 ml-2">Search</button>
             <div class="search-history">
                 <ul class="list-group"></ul>
             </div>
@@ -49,11 +49,11 @@
         <!-- Today's Date and Weather Forecast -->
         <section class="col-8">
             <div class="current-forecast">
-            <h2 class="mw-100">Placeholder city and date</h2>
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <P>Humidity: </P>
-            <p>UV Index: </p>
+            <h2 class="mw-100 city-input">Placeholder city and date<span class="current-date"></span></h2>
+            <p id="temp">Temp: </p>
+            <p id="wind">Wind: </p>
+            <P id="humidity">Humidity: </P>
+            <p id="uv-index">UV Index: </p>
             </div>
         
 
@@ -65,8 +65,8 @@
             <h3 class="">5-Day Forecast:</h3>
 
 
-            <div class="d-flex justify-content-around mb-3">
-            <div class="future-weather" id="day-1">
+            <div class="d-flex justify-content-between mb-3">
+            <div class="future-weather ml-2" id="day-1">
                 <h4>3/15/22</h4>
                 <p>Temp: </p>
                 <p>Wind: </p>
@@ -94,7 +94,7 @@
                 <p>Humidity: </p>
             </div>
 
-            <div class="future-weather" id="day-5">
+            <div class="future-weather mr-2" id="day-5">
                 <h4>3/15/22</h4>
                 <p>Temp: </p>
                 <p>Wind: </p>
@@ -112,10 +112,11 @@
     </main>
 
 
-
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}"></script>
 	<script src="assets/js/script.js"></script>
   </body>
 
 </html>
+
 
