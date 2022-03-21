@@ -1,17 +1,24 @@
 body {
     background: #c0e3fa;
+    color: #537991;
 }
 
 header {
-    background-image: linear-gradient(to right, skyblue , purple);
+    background-image: linear-gradient(to right, skyblue , #0097fa);
     border-bottom: 3px solid white;
     color: white;
 }
+
+.info {
+    color: #6c9ebd;
+}
+
 .future-weather {
-    background: #4aaef0;
+    background: #92d2fc;
     padding: 5px 50px 0px 5px;
     border: 2px solid #277eb8;
     border-radius: 10%;
+    color: #6c9ebd;
 }
 
 .search-city h2 {
