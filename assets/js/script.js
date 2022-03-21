@@ -9,6 +9,7 @@ var wind = $("#wind");
 var humidity = $("#humidity");
 var uvIndex = $("#uv-index"); 
 
+// Current date displayed by city name //
 var todaysDate = moment().format('L');
 $(".current-date").html(todaysDate);
 
