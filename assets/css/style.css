@@ -1,11 +1,16 @@
+body {
+    background: #c0e3fa;
+}
+
 header {
-    background: #64a4ed;
-    border-bottom: 3px solid #3d7abf;
+    background-image: linear-gradient(to right, skyblue , purple);
+    border-bottom: 3px solid white;
+    color: white;
 }
 .future-weather {
-    background: skyblue;
+    background: #4aaef0;
     padding: 5px 50px 0px 5px;
-    border: 2px solid blue;
+    border: 2px solid #277eb8;
     border-radius: 10%;
 }
 
@@ -18,7 +23,7 @@ header {
     padding-top: 5px;
 }
 
-.current-forecast {
+#current-forecast {
     border: 3px solid grey;
     padding: 5px 5px 5px 5px;
 }
@@ -27,9 +32,6 @@ header {
     border: 3px solid grey;
 }
 
-.future-weather {
-   
-}
 
 
     
